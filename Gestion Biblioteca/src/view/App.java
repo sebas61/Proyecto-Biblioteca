@@ -4,7 +4,15 @@ import java.util.Scanner;
 
 import control.Biblioteca;
 
+/**
+ * Se crea la clase vista donde se manejara el sistema de bibliotecas
+ */
+
 public class App {
+     /**
+     * Metodo principal que ejecuta el sistema de bibliotecas.
+     *  @params args Argumentos de la linea de comandos.
+     */
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         Biblioteca municipalSoga = new Biblioteca();
